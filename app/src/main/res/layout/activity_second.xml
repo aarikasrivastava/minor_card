@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/greetings"
+        android:scaleType="centerCrop"
+        android:src="@drawable/saved" />
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:lines="2"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="60sp"
+        />
+    <TextView
+        android:id="@+id/to_all"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/welcome"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="cursive"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        />
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/to_all"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="cursive"
+        android:lines="2"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        />
+    <TextView
+        android:id="@+id/from1"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="90dp"
+        android:fontFamily="cursive"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        />
+
+</RelativeLayout>

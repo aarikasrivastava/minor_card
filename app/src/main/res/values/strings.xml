@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="create" />
+    <string name="write_message" />
+    <string name="greetings">Greetings!</string>
+    <string name="from">from</string>
+    <string name="your_name">your_name</string>
+    <string name="to">to</string>
+    <string name="heading">heading</string>
+    <string name="enter_text">enter_text</string>
+    <string name="message">message</string>
+    <string name="create_card">create card</string>
+    <string name="hola_amigos" />
+</resources>
